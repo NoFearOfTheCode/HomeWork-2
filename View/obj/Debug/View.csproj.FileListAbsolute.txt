@@ -1,0 +1,8 @@
+c:\users\andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\bin\Debug\View.exe.config
+C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\bin\Debug\View.exe
+C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\bin\Debug\View.pdb
+C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\bin\Debug\Model.dll
+C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\bin\Debug\Model.pdb
+C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\obj\Debug\View.exe
+C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\obj\Debug\View.pdb
