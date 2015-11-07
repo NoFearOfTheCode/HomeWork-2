@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 
 namespace Model
@@ -21,7 +21,7 @@ namespace Model
 
         public void ChangeOwner(Driver driver, string carNumber)
         {
-            CarPassport.Owner = driver.Name; 
+            CarPassport.Owner = driver; 
             driver.OwnCar(this);
             CarNumber = carNumber;
         }
