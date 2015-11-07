@@ -18,7 +18,14 @@ namespace View
             var carLada = new Car("Лада", 'D') {Color = Color.DarkMagenta};
             
             //FR002
-            Console.WriteLine("Имя владельца Лады: {0}", carLada.CarPassport.Owner);
+            try
+            {
+                Console.WriteLine("Имя владельца Лады: {0}", carLada.CarPassport.Owner.Name);
+            }
+            catch (NullReferenceException exception)
+            {
+                Console.WriteLine("Исключение: невозможно вывести имя владельца!!!\n" + exception.Message + "\n");
+            }
             
             //FR003
             var driverVoldemar = new Driver(new DateTime(2012, 10, 13), "Вольдемар") { Category = "BC"};
@@ -31,10 +38,10 @@ namespace View
             carLada.ChangeOwner(driverVoldemar, "o777oo");
 
             //FR006
-            Console.WriteLine("Номер машины Вольдемара: {0}", driverVoldemar.Car.CarNumber);
+            Console.WriteLine("\nНомер машины Вольдемара: {0}", driverVoldemar.Car.CarNumber);
 
             //FR007
-            Console.WriteLine("Имя владельца лады : {0}", carLada.CarPassport.Owner);
+            Console.WriteLine("\nИмя владельца лады : {0}", carLada.CarPassport.Owner.Name);
 
             Console.ReadKey();
         }
