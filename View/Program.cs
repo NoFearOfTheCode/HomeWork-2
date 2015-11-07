@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -21,8 +21,7 @@ namespace View
             Console.WriteLine("Имя владельца Лады: {0}", carLada.CarPassport.Owner);
             
             //FR003
-            var licenceDate = new DateTime(2012, 10, 13);
-            var driverVoldemar = new Driver(licenceDate, "Вольдемар") { Category = "BC"};
+            var driverVoldemar = new Driver(new DateTime(2012, 10, 13), "Вольдемар") { Category = "BC"};
 
             //FR004
             carLada.ChangeOwner(driverVoldemar, "o777oo");
