@@ -19,16 +19,9 @@ namespace Model
 
         public void OwnCar(Car car)
         {
-            try
-            {
                 if (!Category.Contains(car.Category))
                     throw new CategoryNotFoundException("Водитель: " + Name + " не обладает категорией " + car.Category);
                 else { Car = car;}
-            }
-            catch (CategoryNotFoundException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
         }
     }
 }

@@ -14,7 +14,6 @@ namespace View
         static void Main(string[] args)
         {
             //FR001
-            ///путём, гугла было выявлено что цвет баклажан это DarkMagenta, но я не уверен.
             var carLada = new Car("Лада", 'D') {Color = Color.DarkMagenta};
             
             //FR002
@@ -31,8 +30,15 @@ namespace View
             var driverVoldemar = new Driver(new DateTime(2012, 10, 13), "Вольдемар") { Category = "BC"};
 
             //FR004
-            carLada.ChangeOwner(driverVoldemar, "o777oo");
-
+            try
+            {
+                carLada.ChangeOwner(driverVoldemar, "o777oo");
+            }
+            catch (CategoryNotFoundException exeption)
+            {
+                Console.WriteLine(exeption.Message);
+            }
+           
             //FR005
             driverVoldemar.Category += "D";
             carLada.ChangeOwner(driverVoldemar, "o777oo");
