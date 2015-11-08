@@ -6,3 +6,11 @@ C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\bi
 C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\obj\Debug\View.csprojResolveAssemblyReference.cache
 C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\obj\Debug\View.exe
 C:\Users\Andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\View\obj\Debug\View.pdb
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\View.exe.config
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\obj\Debug\View.exe
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\obj\Debug\View.pdb
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\View.exe
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\View.pdb
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\Model.dll
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\Model.pdb
+C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\obj\Debug\View.csprojResolveAssemblyReference.cache

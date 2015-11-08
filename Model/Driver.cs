@@ -19,19 +19,13 @@ namespace Model
 
         public void OwnCar(Car car)
         {
-            var check = 0;
-            foreach (var t in Category.Where(t => t == car.Category))
-            {
-                check++;
-                Car = car;
-            }
-
             try
             {
-                if (check == 0)
-                    throw new Exception("Исключение: категория водителя не соответствует, категории машины!!!");
+                if (!Category.Contains(car.Category))
+                    throw new CategoryNotFoundException("Водитель: " + Name + " не обладает категорией " + car.Category);
+                else { Car = car;}
             }
-            catch (System.Exception exception)
+            catch (CategoryNotFoundException exception)
             {
                 Console.WriteLine(exception.Message);
             }

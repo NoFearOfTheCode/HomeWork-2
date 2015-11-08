@@ -24,7 +24,7 @@ namespace View
             }
             catch (NullReferenceException exception)
             {
-                Console.WriteLine("Исключение: невозможно вывести имя владельца!!!\n" + exception.Message + "\n");
+                Console.WriteLine("Исключение: невозможно вывести имя владельца!!!\n Сообщение: " + exception.Message + "\n");
             }
             
             //FR003
