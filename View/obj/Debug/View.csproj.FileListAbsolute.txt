@@ -14,3 +14,11 @@ C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\View.pdb
 C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\Model.dll
 C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\bin\Debug\Model.pdb
 C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\bin\Debug\View.exe.config
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\obj\Debug\View.exe
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\obj\Debug\View.pdb
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\bin\Debug\View.exe
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\bin\Debug\View.pdb
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\bin\Debug\Model.dll
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\bin\Debug\Model.pdb
+C:\Users\xpaac\Source\Repos\HomeWork-2\View\obj\Debug\View.csprojResolveAssemblyReference.cache

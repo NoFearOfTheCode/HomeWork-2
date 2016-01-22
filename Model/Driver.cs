@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 
 namespace Model
 {
@@ -13,15 +12,29 @@ namespace Model
 
         public DateTime LicenceDate { get; }
         public string Name { get; }
-        public int Experience => DateTime.Now.Year - LicenceDate.Year;
+
+        public int Experience
+        {
+            get
+            {
+                var experience = DateTime.Now - LicenceDate;
+                return experience.Days / 365;
+            }
+        }
+
         public string Category { get; set; }
         public Car Car { get; private set; }
 
         public void OwnCar(Car car)
         {
-                if (!Category.Contains(car.Category))
-                    throw new CategoryNotFoundException("Р’РѕРґРёС‚РµР»СЊ: " + Name + " РЅРµ РѕР±Р»Р°РґР°РµС‚ РєР°С‚РµРіРѕСЂРёРµР№ " + car.Category);
-                else { Car = car;}
+            if (!Category.Contains(car.Category))
+            {
+                throw new CategoryNotFoundException("Водитель: " + Name + " не обладает категорией " + car.Category);
+            }
+            else
+            {
+                Car = car;
+            }
         }
     }
 }

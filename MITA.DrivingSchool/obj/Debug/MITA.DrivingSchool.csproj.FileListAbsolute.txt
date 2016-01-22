@@ -1,2 +1,4 @@
 c:\users\andrey\documents\visual studio 2015\Projects\MITA.DrivingSchool\MITA.DrivingSchool\bin\Debug\MITA.DrivingSchool.exe.config
 C:\Users\Andrey\Documents\GitHubVisualStudio\HomeWork-2\MITA.DrivingSchool\bin\Debug\MITA.DrivingSchool.exe.config
+C:\Users\xpaac\Source\Repos\HomeWork-2\MITA.DrivingSchool\bin\Debug\MITA.DrivingSchool.exe.config
+C:\Users\xpaac\Source\Repos\HomeWork-2\MITA.DrivingSchool\obj\Debug\MITA.DrivingSchool.csprojResolveAssemblyReference.cache

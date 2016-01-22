@@ -1,10 +1,5 @@
 using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using Model;
 
 namespace View
@@ -14,7 +9,7 @@ namespace View
         static void Main(string[] args)
         {
             //FR001
-            var carLada = new Car("Лада", 'D') {Color = Color.DarkMagenta};
+            var carLada = new Car("Лада", "D") {Color = Color.DarkMagenta};
             
             //FR002
             try
@@ -27,7 +22,7 @@ namespace View
             }
             
             //FR003
-            var driverVoldemar = new Driver(new DateTime(2012, 10, 13), "Вольдемар") { Category = "BC"};
+            var driverVoldemar = new Driver(new DateTime(2012, 01, 22), "Вольдемар") { Category = "BC"};
 
             //FR004
             try

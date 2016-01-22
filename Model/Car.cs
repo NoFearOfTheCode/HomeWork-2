@@ -1,11 +1,10 @@
-using System;
 using System.Drawing;
 
 namespace Model
 {
     public class Car
     {
-        public Car(string model, char category)
+        public Car(string model, string category)
         {
             Model = model;
             Category = category;
@@ -16,14 +15,21 @@ namespace Model
         public Color Color { get; set; }
         public string Model { get;}
         public string CarNumber { get; private set; }
-        public char Category { get; }
+        public string Category { get; }
         public CarPassport CarPassport { get; }
 
         public void ChangeOwner(Driver driver, string carNumber)
         {
-            CarPassport.Owner = driver; 
-            driver.OwnCar(this);
-            CarNumber = carNumber;
+            if (driver.Category.Contains(Category))
+            {
+                CarPassport.Owner = driver;
+                driver.OwnCar(this);
+                CarNumber = carNumber;
+            }
+            else
+            {
+                throw new CategoryNotFoundException("Водитель: " + driver.Name + " не обладает категорией " + Category);
+            }
         }
     }
 }
